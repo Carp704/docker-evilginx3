@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://github.com/Carp704/docker-evilginx3/evilginx3.gif" width="600" height="300"/>
+  <img src="https://github.com/Carp704/docker-evilginx3/blob/main/evilginx3.gif" width="600" height="300"/>
 </div>
 
 
