@@ -1,6 +1,5 @@
 #!/bin/sh
 #
 #
-#
-/bin/evilginx -p /phishlets -c /config -developer
-
+/bin/evilginx -h
+tail -f /dev/null

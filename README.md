@@ -22,7 +22,7 @@ git clone https://github.com/Carp704/docker-evilginx3.git
 cd docker-evilginx3
 docker build -t evilginx3-image .
 
-# Start the image
+# Start the container
 docker run --name=evilginx3_prod \
   -e TZ=America/New_York \
   -p 443:443 \
@@ -32,8 +32,14 @@ docker run --name=evilginx3_prod \
   --restart=unless-stopped \
   evilginx3-image
 
-# View the running image
+# View the running container
 docker ps -a
+
+# Access the running container
+docker exec -it evilginx3_prod /bin/sh
+
+# Start Evilginx
+/bin/evilginx -p /phishlets -c /config -developer
 
 ```
 
