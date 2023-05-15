@@ -32,6 +32,9 @@ docker run --name=evilginx3_prod \
   --restart=unless-stopped \
   evilginx3-image
 
+# View the running image
+docker ps -a
+
 ```
 
 ## Support Info
