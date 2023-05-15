@@ -41,7 +41,7 @@ docker ps -a
 
 ```
 # Shell access 
-docker exec -it evilginx3_prod /bin/bash
+docker exec -it evilginx3_prod /bin/sh
 
 # Monitor the logs of the container in realtime
 docker logs -f evilginx3_prod
