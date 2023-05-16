@@ -26,7 +26,7 @@ docker build -t evilginx3-image .
 docker run --name=evilginx3_prod \
   -e TZ=America/New_York \
   -p 443:443 \
-  -p 80:80 \
+  -p 53:53 \
   -v /opt/docker-evilginx3/config:/config \
   -v /opt/docker-evilginx3/phishlets:/phishlets \
   --restart=unless-stopped \
